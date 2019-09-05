@@ -1,0 +1,215 @@
+body {
+	max-width: 1920px;
+	background-color: #332f2c;
+}
+
+a:link { 
+    text-decoration: none;
+	color: white;
+	-moz-text-shadow:0 0 10px #000;
+	-webkit-text-shadow:0 0 10px #000;
+	text-shadow:0 10px 20px #000;
+} 
+a:visited { 
+	text-decoration: none;
+	color: white;   
+} 
+a:active { 
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+    text-decoration: none;
+	-moz-text-shadow:0 0 10px #fff;
+	-webkit-text-shadow:0 0 10px #fff;
+	text-shadow:0 0 10px #fff;
+} 
+
+
+.icondisplay{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagebtn{
+	display: inline;
+}
+
+img {
+	margin: 50px 0 0 20px;
+	background: url(resources/image/github_icon.png) right bottom no-repeat; 
+	padding: 0 5px 5px 0; 
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100px;
+	width: auto\9;
+	border-radius: 100px;
+}
+
+.butScroll{
+	margin: 10% 0 0 0;
+    text-align:center;
+	font-size: 100;
+	color: rgba(255, 255, 255, 1);
+}
+
+#firstBlock{
+	height: 100%;
+	min-height: 720px;
+	max-height: 1080px;
+}
+
+#secondBlock{
+	height: 100%;
+	min-height: 720px;
+}
+
+.text{
+    color: white;
+	text-align:center;
+}
+
+.textDownHead{
+	margin: 0 10% 0 10%;
+	font-size: 30px;
+}
+
+.blockWithText{
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	width: 80%;
+	min-width: 320px;
+}
+
+.block{
+	margin: 0 auto;
+	width: 50%;
+	min-width: 320px;
+}
+
+.blockInside{
+	margin: 0 10px 0 10px;
+}
+
+.blockInsideTwo{
+	margin: 10px 10px 0 10px;
+}
+
+.blockSkill{
+	display: flex;
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: monospace;
+	text-align:center;
+}
+
+.skill1{
+	display:flex;
+	float: left;
+	color: black;
+	width: 150px;
+	height: 50px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #79ff61;
+}
+
+.skill2{
+	display:flex;
+	float: left;
+	color: black;
+	width: 150px;
+	height: 50px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #d9ff64;
+}
+
+.skill3{
+	display:flex;
+	float: left;
+	color: black;
+	width: 150px;
+	height: 50px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffcc66;
+}
+
+.skill4{
+	display:flex;
+	float: left;
+	color: black;
+	width: 150px;
+	height: 50px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff8e66;
+}
+
+.skill5{
+	display:flex;
+	float: left;
+	color: black;
+	width: 150px;
+	height: 50px;
+	margin: 5px 0 5px 0;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff6666;
+}
+
+.prj1{
+	display:flex;
+	float: left;
+	color: black;
+	width: 300px;
+	height: 100px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	font-size: 40px;
+	font-family: fantasy;
+	justify-content: center;
+	align-items: center;
+	background-color: #79ff61;
+}
+
+.prj2{
+	display:flex;
+	float: left;
+	color: black;
+	width: 300px;
+	height: 100px;
+	margin: 5px 5px 0 0;
+	padding: 10px;
+	font-size: 40px;
+	font-family: fantasy;
+	justify-content: center;
+	align-items: center;
+	background-color: #d9ff64;
+}
+
+.prj3{
+	display:flex;
+	float: left;
+	color: black;
+	width: 300px;
+	height: 100px;
+	margin: 5px 0 5px 0;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffcc66;
+}
+
+
