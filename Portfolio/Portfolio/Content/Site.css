@@ -1,0 +1,125 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+backg {
+    background-image: url(fon2.jpg);
+}
+
+.set-font-family {
+    font-family: Aganè;
+}
+
+.set-big-size {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.set-medium-size {
+    font-size: 125%;
+}
+
+.set-small-size {
+    font-size: 70%;
+}
+
+
+.color-orange {
+    color: #FFD700;
+}
+
+.bga {
+    background: url(../Content/image/fon.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color-gray {
+    color: #969696;
+}
+
+.back-img {
+    background: url(../Content/image/back.png) 50% 50% no-repeat;
+    background-position: center;
+}
+
+.fot {
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+legend {
+    display: block;
+    width: auto;
+    padding: 0 5px;
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: inherit;
+    border-bottom: none;
+}
+
+fieldset {
+    border: 5px solid #c8c8c8;
+    padding: 5px;
+}
+
+
+
+.ic {
+    margin: 0 10px 50px 10px;
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.buttonn {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    margin-left: -56px;
+    top: 100%;
+    left: 50%;
+    margin-top: -16px;
+    text-align: center;
+    padding: 8px 24px;
+    line-height: 16px;
+    background-color: #fbdb1a;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: Aganè;
+    src: url(../fonts/Aganè65Bold.ttf);
+}
